@@ -1,9 +1,14 @@
-import React from 'react'
+import React from "react";
 
-function AppFooter() {
+export default function AppFooter() {
   return (
-    <div>AppFooter</div>
-  )
+    <footer className="bg-gray-800 py-1 absolute bottom-0 w-full">
+      <div className="container mx-auto">
+        <div className="text-white text-center font-medium">
+          <p>&copy; 2024 <b>Anush Adhikari</b>. All rights reserved.</p>
+          <p>Designed with ❤️ by Me</p>
+        </div>
+      </div>
+    </footer>
+  );
 }
-
-export default AppFooter
